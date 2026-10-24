@@ -1,0 +1,15 @@
+{
+  "name": "agent-control-hive",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Hive: shared memory and coordination for agent teams, as an Agent Control plugin.",
+  "type": "module",
+  "license": "MIT",
+  "engines": {
+    "node": ">=24"
+  },
+  "scripts": {
+    "test": "node --test --test-reporter=spec test/*.test.mjs",
+    "check": "node scripts/check-manifest.mjs && npm test"
+  }
+}
