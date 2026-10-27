@@ -31,14 +31,14 @@ can tell why a file changed last week. Hive gives the team a memory and a way to
 
 1. Get the plugin folder:
    ```bash
-   git clone https://github.com/remcoeijsackers/agent-control-hive.git
+   git clone https://github.com/remcoeijsackers/mallows-plugin-hive.git
    ```
 2. In Agent Control open **Plugins**, enter the folder path under *Install or upgrade from folder* and click
    **Install**. Or use the API:
    ```bash
    curl -X POST http://127.0.0.1:4317/api/plugins/install \
      -H "Authorization: Bearer $AC_TOKEN" -H "content-type: application/json" -H "x-agent-control: 1" \
-     -d '{"path":"/path/to/agent-control-hive"}'
+     -d '{"path":"/path/to/mallows-plugin-hive"}'
    ```
 3. Turn Hive on for the workspaces where it should work (the checkboxes on the Plugins page). A new plugin is off
    everywhere until you do.

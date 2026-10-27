@@ -5,7 +5,7 @@
   "sdk": 1,
   "description": "Shared memory and coordination for agent teams. Agents remember lessons, conventions and decisions across tasks, recall them by search, claim files before they edit them so parallel agents stop colliding, and leave a work log the next agent can read.",
   "author": "Hive contributors",
-  "homepage": "https://github.com/remcoeijsackers/agent-control-hive",
+  "homepage": "https://github.com/remcoeijsackers/mallows-plugin-hive",
   "permissions": ["db", "routes", "tools", "events", "settings"],
   "main": "index.mjs",
   "settings": [
